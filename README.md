@@ -15,3 +15,8 @@ docker image save xmas-wars > war.tar
 ### Image custom image to container station
 
 QNAP -> ContainerStation -> Import -> +Import -> Browse Local -> import war.tar
+
+### ToDo
+
+- Move IP address to variable setting
+- Move execution script to dyanmic download
