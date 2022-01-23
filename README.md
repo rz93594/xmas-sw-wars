@@ -21,7 +21,6 @@ docker build xmas-wars .
 docker image save xmas-wars > war.tar
 
 ### Console will output in color for live tracking
-//![](https://github.com/rz93594/xmas-sw-wars/blob/main/imgs/console.png?raw=true)
 ![](xmas-sw-wars/blob/main/imgs/console.png?raw=true)
 
 
