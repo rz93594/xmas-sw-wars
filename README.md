@@ -20,6 +20,8 @@ docker build xmas-wars .
 
 docker image save xmas-wars > war.tar
 
+https://github.com/rz93594/xmas-sw-wars/blob/main/imgs/console.png?raw=true
+
 
 ### Image custom image to container station
 
