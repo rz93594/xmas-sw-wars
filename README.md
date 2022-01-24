@@ -19,6 +19,10 @@ Load [WLED](https://kno.wled.ge/) on an [ESP32](https://www.amazon.com/gp/produc
 
 ### Build
 
+Use Docker to essentially run a script on a system rather have a dedicated laptop/VM up and running.  In my case I loaded a container on our NAS system and used its extra capacity that was already running.
+
+The following syntax was used to build the container:
+
 docker build xmas-wars .
 
 
