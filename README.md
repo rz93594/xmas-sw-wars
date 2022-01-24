@@ -14,7 +14,9 @@ https://user-images.githubusercontent.com/20580783/150703802-ca9d5882-5e67-4e1e-
 ### Hardware
 
 
-Load [WLED](https://kno.wled.ge/) on an [ESP32](https://www.amazon.com/gp/product/B09J94HPZB/) development board that gives you built in WiFi, 5v power and individual LED control
+Load [WLED](https://kno.wled.ge/) on an [ESP32](https://www.amazon.com/gp/product/B09J94HPZB/) development board that gives you built in WiFi, 5v power and individual LED control.
+
+Individual LED strips based on the [WS2812B](https://www.amazon.com/gp/product/B00ZHB9M6A) chipset were used. 
 
 
 ### Build
@@ -38,7 +40,8 @@ docker image save xmas-wars > war.tar
 
 QNAP -> ContainerStation -> Import -> +Import -> Browse Local -> import war.tar
 
-### Script echos out status in color to container console
+- Script echos out status in color to container console for tracking
+- Script has run for 30 days straight with no power cycles on ESP32 board..one hard power cycle was needed to.
 
 ### ToDo
 
