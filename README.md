@@ -21,12 +21,13 @@ Individual LED strips based on the [WS2812B](https://www.amazon.com/gp/product/B
 
 ### Build
 
-Use Docker to essentially run a script on a system rather have a dedicated laptop/VM up and running.  In my case I loaded a container on our NAS system and used its extra capacity that was already running.
+Use Docker to continually run a script on a system rather have a dedicated laptop/VM up and running.  In my case I loaded a container on our NAS system and used its extra capacity that was already running.
 
 The following syntax was used to build the container:
 
+```bash
 docker build xmas-wars .
-
+```
 
 ### Export image to import to QNAP container
 
