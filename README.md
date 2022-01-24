@@ -11,6 +11,12 @@ https://user-images.githubusercontent.com/20580783/149639668-4fa412f0-6f99-4e09-
 
 
 
+### Hardware
+
+
+Load [WLED](https://kno.wled.ge/) on an [ESP32](https://www.amazon.com/gp/product/B09J94HPZB/)_ development board that gives you built in WiFi, 5v power and individual LED control
+
+
 ### Build
 
 docker build xmas-wars .
