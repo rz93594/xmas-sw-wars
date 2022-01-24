@@ -31,7 +31,9 @@ docker build xmas-wars .
 
 ### Export image to import to QNAP container
 
+```bash
 docker image save xmas-wars > war.tar
+```
 
 ### Console will output in color for live tracking
 ![](https://github.com/rz93594/xmas-sw-wars/blob/main/imgs/console.png?raw=true)
