@@ -40,8 +40,9 @@ docker image save xmas-wars > war.tar
 
 
 ### Image custom image to container station
-
+```html
 QNAP -> ContainerStation -> Import -> +Import -> Browse Local -> import war.tar
+```
 
 - Script echos out status in color to container console for tracking
 - Script has run for 30 days straight with no power cycles on ESP32 board..one hard power cycle was needed to.
