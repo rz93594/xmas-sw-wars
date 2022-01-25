@@ -4,7 +4,7 @@ Santa and AT-AT Walker battle
 
 
 
-### Example War
+### Example Lights
 
 
 <!--- https://user-images.githubusercontent.com/20580783/149639668-4fa412f0-6f99-4e09-a96c-42da437ddd8f.mp4 --->
@@ -44,10 +44,13 @@ docker image save xmas-wars > war.tar
 QNAP -> ContainerStation -> Import -> +Import -> Browse Local -> import war.tar
 ```
 
+
+### Notes
+
 - Script echos out status in color to container console for tracking
-- Script has run for 30 days straight with no power cycles on ESP32 board..one hard power cycle was needed to.
+- Script has run for 30 days straight with no power cycles on ESP32 board
 
 ### ToDo
 
 - Move IP address to variable setting
-- Move execution script to dyanmic download
+- Move light control script to dyanmic download and out of Container image for live updates
