@@ -44,6 +44,7 @@ docker image save xmas-wars > war.tar
 QNAP -> ContainerStation -> Import -> +Import -> Browse Local -> import war.tar
 ```
 
+In Container Station or Docker run time set ENV variable XIP to the address of the ESP32 device running the master WLAN interface
 
 ### Notes
 
