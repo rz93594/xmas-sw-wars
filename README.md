@@ -52,5 +52,6 @@ QNAP -> ContainerStation -> Import -> +Import -> Browse Local -> import war.tar
 
 ### ToDo
 
-- Move IP address to variable setting
 - Move light control script to dyanmic download and out of Container image for live updates
+- Add variable input filter to validate IP is local and no non-routable info
+
