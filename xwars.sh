@@ -11,7 +11,7 @@ then
 	exit
 else
 	echo "Found ESP32 at $XIP"
-	IP=$XIP
+	IP="$(echo $XIP  | awk '/^[0-9.]+[.][0-9]+$/{if(!a[$0]++)print $0}')"
 fi
 
 while :
