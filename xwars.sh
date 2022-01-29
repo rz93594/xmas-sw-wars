@@ -11,6 +11,7 @@ then
 	exit
 else
 	echo "Found ESP32 at $XIP"
+	### Santitize input to only IP, need to add private_ip4_check
 	IP="$(echo $XIP  | awk '/^[0-9.]+[.][0-9]+$/{if(!a[$0]++)print $0}')"
 fi
 
