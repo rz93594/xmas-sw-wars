@@ -26,7 +26,7 @@ Use Docker to continually run a script on a system rather have a dedicated lapto
 The following syntax was used to build the container:
 
 ```bash
-docker build xmas-wars .
+docker build -t xmas-wars .
 ```
 
 ### Export image to import to QNAP container
