@@ -1,0 +1,11 @@
+[Unit]
+Description=Systemd service to start Walker audio on startup
+After=multi-user.target
+
+[Service]
+User=tmw
+Group=tmw
+Type=simple
+ExecStart=/home/tmw/walker/start.sh
+
+[Install]
