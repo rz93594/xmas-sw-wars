@@ -19,8 +19,9 @@ while :
 do
 	echo -e "${RED}Red Laser - AT-AT ${NC}- 7 seconds"
  	echo -e "${RED}Playing Music on RPi ${NC}- 23 seconds"
- 	curl -o /dev/null -s "http://192.168.1.213:5000/webhook"
-	curl -o /dev/null -s "$IP/win&PL=4"
+ 	#curl -o /dev/null -s "http://192.168.1.213:5000/webhook"
+	curl -o /dev/null -s "$AIP/webhook"
+ 	curl -o /dev/null -s "$IP/win&PL=4"
 	sleep 7 
 	echo -e "${GREEN}Green Laser - Santa ${NC} - 4 seconds"
 	curl -o /dev/null -s "$IP/win&PL=1"
