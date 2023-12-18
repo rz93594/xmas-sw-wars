@@ -49,6 +49,7 @@ In Container Station or Docker run time set ENV variable XIP to the address of t
 ### Notes
 
 - Script echos out status in color to container console for tracking
+- Add a resistor to the data line coming from the ESP32 will help keep signal noise clean.
 - Script has run for 30 days straight with no power cycles on ESP32 board
 
 ### ToDo
